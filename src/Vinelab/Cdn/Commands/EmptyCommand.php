@@ -50,7 +50,7 @@ class EmptyCommand extends Command
      *
      * @return mixed
      */
-    public function fire()
+    public function handle()
     {
         $this->cdn->emptyBucket();
     }
